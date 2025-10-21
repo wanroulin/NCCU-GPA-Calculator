@@ -53,7 +53,7 @@ const GPACalculator = () => {
       <div className="calculator-container">
         <div className="calculator-header">
           <div className="header-info">
-            <h1 className="header-title">GPA 試算表</h1>
+            <h1 className="header-title">GPA 計算器</h1>
             <p className="header-subtitle">
               {studentInfo?.studentName} - {studentInfo?.studentId} - {studentInfo?.department}
             </p>
