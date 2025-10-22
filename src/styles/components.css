@@ -261,3 +261,69 @@
     width: 100%;
   }
 }
+
+/* Footer */
+.footer-area {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  margin-top: 2rem;
+}
+
+.footer-area p {
+  margin-bottom: 0.5rem;
+}
+
+.privacy-policy {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.privacy-policy-link {
+  color: #6b7280;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.privacy-policy-link:hover {
+  color: #3b82f6;
+}
+
+.separator {
+  color: #d1d5db;
+}
+
+.privacy-note {
+  color: #9ca3af;
+  font-size: 0.8125rem;
+}
+
+.upload-page-wrapper,
+.gpa-calculator-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-page-wrapper .upload-page,
+.gpa-calculator-wrapper .gpa-calculator {
+  flex: 1;
+}
+
+@media (max-width: 640px) {
+  .privacy-policy {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .separator {
+    display: none;
+  }
+}

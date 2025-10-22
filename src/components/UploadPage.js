@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles/UploadPage.css';
+import Footer from './Footer';
 
-const UploadPage = ({ onFileUpload, isProcessing }) => {
+const UploadPage = ({ onFileUpload, isProcessing, onPrivacyClick }) => {
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (file) {
@@ -15,7 +16,7 @@ const UploadPage = ({ onFileUpload, isProcessing }) => {
         <div className="upload-header">
           <h1 className="upload-title">政大 GPA 計算器</h1>
           <p className="upload-subtitle">
-            上傳您的成績 HTML 檔案，立即查看詳細的 GPA 分析
+            上傳您的成績 HTML 檔案，立即查看詳細 GPA 分析
           </p>
         </div>
 
@@ -47,6 +48,8 @@ const UploadPage = ({ onFileUpload, isProcessing }) => {
             <li>立即查看您的 GPA 分析結果！</li>
           </ol>
         </div>
+
+        <Footer onPrivacyClick={ onPrivacyClick } />
       </div>
     </div>
   );
