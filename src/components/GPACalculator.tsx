@@ -7,7 +7,7 @@ import SemesterTable from './SemesterTable';
 import PrivacyPolicy from './PrivacyPolicy';
 import Footer from './Footer';
 import { parseNCCUGradeHTML, StudentInfo } from '../utils/htmlParser';
-import { calculateSemesterGPA, calculateCumulativeGPA, calculateGradeDistribution, Course, GradeStats } from '../utils/gpaCalc';
+import { calculateSemesterGPA, calculateCumulativeGPA, calculateGradeDistribution, Course } from '../utils/gpaCalc';
 import '../styles/GPACalculator.css';
 
 const GPACalculator: React.FC = () => {
