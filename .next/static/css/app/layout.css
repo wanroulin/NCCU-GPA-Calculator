@@ -1,0 +1,665 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/styles/GPACalculator.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.gpa-calculator {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 1.5rem;
+}
+
+.calculator-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.calculator-header {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-info {
+  flex: 1 1;
+}
+
+.header-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.header-subtitle {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.button-area {
+  display: flex;
+  gap: 10px;
+}
+
+.reset-button {
+  padding: 0.5rem 1.5rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.reset-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.report-button {
+  padding: 0.5rem 1.5rem;
+  background: #abaeb5;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.report-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(177, 181, 195, 0.4);
+}
+
+.tabs-container {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tab {
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  color: #6b7280;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  color: #3b82f6;
+}
+
+.tab-active {
+  color: #3b82f6;
+  background: #eff6ff;
+  border-bottom-color: #3b82f6;
+}
+
+.content-area {
+  margin-bottom: 1.5rem;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/styles/UploadPage.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.upload-page {
+  min-height: 100vh;
+  background: #183f6f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.upload-container {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  padding: 2.5rem;
+  max-width: 42rem;
+  width: 100%;
+}
+
+.upload-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.upload-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.upload-subtitle {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.upload-area {
+  border: 4px dashed #bfdbfe;
+  border-radius: 0.75rem;
+  padding: 3rem;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: #eff6ff;
+  margin-bottom: 2rem;
+}
+
+.upload-area:hover {
+  background: #dbeafe;
+  border-color: #3b82f6;
+}
+
+.upload-input {
+  display: none;
+}
+
+.upload-label {
+  cursor: pointer;
+  display: block;
+}
+
+.upload-icon {
+  font-size: 3.75rem;
+  margin-bottom: 1rem;
+}
+
+.upload-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+}
+
+.upload-hint {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.instructions {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.instructions-title {
+  color: #92400e;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.instructions-list {
+  color: #78350f;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  margin-left: 1.25rem;
+}
+
+.instructions-list li {
+  margin: 0.75rem 0;
+}
+
+.instructions-list strong {
+  font-weight: 600;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/styles/PrivacyPolicy.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.privacy-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.privacy-modal {
+  background: white;
+  border-radius: 12px;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.privacy-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 24px;
+  border-bottom: 2px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.privacy-header h2 {
+  margin: 0;
+  color: #1f2937;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #6b7280;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.close-button:hover {
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.privacy-content {
+  padding: 24px;
+}
+
+.privacy-content section {
+  margin-bottom: 24px;
+}
+
+.privacy-content h3 {
+  color: #374151;
+  font-size: 18px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.privacy-content p {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.privacy-content ul {
+  color: #6b7280;
+  line-height: 1.8;
+  margin-left: 20px;
+}
+
+.privacy-content a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.privacy-content a:hover {
+  text-decoration: underline;
+}
+
+.privacy-footer {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 14px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/styles/components.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.stat-card {
+  background-color: #eff6ff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  color: #3b82f6;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.stat-unit {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.semester-table-container {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.semester-header {
+  margin-bottom: 1.5rem;
+}
+
+.semester-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.semester-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  gap: 1rem;
+  padding: 1rem;
+  background: #eff6ff;
+  border-radius: 0.5rem;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value-large {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.semester-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.semester-table thead {
+  background: #f3f4f6;
+}
+
+.semester-table th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.semester-table td {
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.semester-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.course-name {
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: left;
+}
+
+.score {
+  font-weight: 600;
+}
+
+.gpa-value {
+  font-weight: 600;
+}
+
+.grade-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.grade-Aplus { background: #d1fae5; color: #065f46; }
+.grade-A { background: #d1fae5; color: #047857; }
+.grade-Aminus { background: #d1fae5; color: #059669; }
+.grade-Bplus { background: #fef3c7; color: #92400e; }
+.grade-B { background: #fef3c7; color: #b45309; }
+.grade-Bminus { background: #fef3c7; color: #d97706; }
+.grade-Cplus { background: #fed7aa; color: #9a3412; }
+.grade-C { background: #fed7aa; color: #c2410c; }
+.grade-Cminus { background: #fed7aa; color: #ea580c; }
+.grade-D { background: #fee2e2; color: #991b1b; }
+.grade-E { background: #fee2e2; color: #dc2626; }
+
+/* 修別徽章 */
+.type-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.type-必 { background: #fee2e2; color: #991b1b; }
+.type-群 { background: #e9d5ff; color: #6b21a8; }
+.type-選 { background: #dbeafe; color: #1e40af; }
+
+.summary-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.summary-header {
+  background:  #667eea;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: white;
+}
+
+.summary-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.summary-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}
+
+.chart-card {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.chart-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.semester-comparison {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.comparison-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.comparison-table thead {
+  background: #f3f4f6;
+}
+
+.comparison-table th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.comparison-table td {
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.comparison-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.semester-name {
+  font-weight: 600;
+}
+
+.gpa-cell {
+  text-align: left;
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+@media (max-width: 768px) {
+  .summary-stats,
+  .semester-stats,
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tabs {
+    overflow-x: auto;
+  }
+  
+  .calculator-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .reset-button {
+    width: 100%;
+  }
+
+  .report-button {
+    width: 100%;
+  }
+}
+
+/* Footer */
+.footer-area {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  margin-top: 2rem;
+}
+
+.footer-area p {
+  margin-bottom: 0.5rem;
+}
+
+.privacy-policy {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.privacy-policy-link {
+  color: #6b7280;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.privacy-policy-link:hover {
+  color: #3b82f6;
+}
+
+.separator {
+  color: #d1d5db;
+}
+
+.privacy-note {
+  color: #9ca3af;
+  font-size: 0.8125rem;
+}
+
+.upload-page-wrapper,
+.gpa-calculator-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-page-wrapper .upload-page,
+.gpa-calculator-wrapper .gpa-calculator {
+  flex: 1 1;
+}
+
+@media (max-width: 640px) {
+  .privacy-policy {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .separator {
+    display: none;
+  }
+}
